@@ -1,0 +1,6 @@
+imports:
+- path: fredcast-cron-template.py
+
+resources:
+- name: fredcast-cron
+  type: fredcast-cron-template.py
