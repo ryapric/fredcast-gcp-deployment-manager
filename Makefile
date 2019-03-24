@@ -7,3 +7,6 @@ create: FORCE
 
 update: FORCE
 	@gcloud deployment-manager deployments update $(DEPLOYMENT)
+
+delete: FORCE
+	@gcloud deployment-manager deployments delete $(DEPLOYMENT)
