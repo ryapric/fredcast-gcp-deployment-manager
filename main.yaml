@@ -1,6 +1,11 @@
 imports:
+# - path: enable-apis-template.py # this is causing too many issues; but, note that it exists
 - path: fredcast-cron-template.py
 
 resources:
+# - name: enable-apis
+#   type: enable-apis-template.py
 - name: fredcast-cron
   type: fredcast-cron-template.py
+# - name: appengine
+#   type: appengine-template.py
